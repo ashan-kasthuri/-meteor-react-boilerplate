@@ -22,3 +22,4 @@ react-meteor-data       # React higher-order component for reactively tracking M
 accounts-base
 fourseven:scss@=4.10.0
 accounts-password
+practicalmeteor:mocha
