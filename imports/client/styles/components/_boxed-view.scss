@@ -1,0 +1,29 @@
+.boxed-view {
+  align-items: center; // set flex children vertically centered
+  background: $boxed-view-overaly-bg;
+  display: flex; // enable flex box
+  justify-content: center; // set flex children horizontally centered
+  height: 100vh; // full viewport height
+  width: 100vw; //full viewport width
+}
+
+.boxed-view__box {
+  background-color: $boxed-view-bg;
+  padding: 2.4rem;
+  text-align: center;
+  width: 24rem;
+}
+
+.boxed-view__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxed-view--modal {
+  background: fade-out($color: $boxed-view-overaly-bg, $amount: 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
